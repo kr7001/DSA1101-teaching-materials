@@ -291,3 +291,14 @@ F2 <- function(salary, price = 1200000, rate = 0.02) {
 F2(salary = 7000, rate = 0.02) # answer: 52
 F2(salary = 10000, rate = 0.01) # answer: 43
 
+################### EXTRA QUESTIONS #############################
+
+vec <- c(1,2,3,4)
+
+for (element in vec) {
+  print(vec)
+  print(element)
+  vec <- vec[-element]
+}
+
+print(vec)
