@@ -96,7 +96,7 @@ Yes model M1 is significant, it has a extremely small p-value < 2.2e-16
 
 ########## OFFSITE QUESTION 1d ##############
 
-### Q: Derive R2 and adjusted R2 of the fitted model.
+### Q: Derive R^2 and adjusted R^2 of the fitted model.
 
 names(summary(M1))
 
@@ -119,7 +119,8 @@ weight_hat = -3.93 + (0.244 x width) + (0.0554 x I(spine = 2))
 ########## OFFSITE QUESTION 1f ##############
 
 ### Q: Two female crabs of the same width, find the difference of their weight 
-###    if one has good spine condition (spine=1) and another one with broken spines (spine=3)
+###    if one has good spine condition (spine=1) and another one with 
+###    broken spines (spine=3)
 
 "
 CRAB WITH GOOD SPINE (SPINE = 1):
@@ -129,7 +130,8 @@ CRAB WITH BROKEN SPINE (SPINE = 3):
 weight_hat = -3.93 + (0.244 x width) - 0.0697
 
 When they have the same width, then on average the one that has spines 
-of good condition (spine = 1) is heavier than the one with broken spines (spine = 3) by 0.0697kg.
+of good condition (spine = 1) is heavier than the one with broken spines 
+(spine = 3) by 0.0697kg.
 "
 
 ########## OFFSITE QUESTION 1g ##############
@@ -197,7 +199,7 @@ legend("bottomright",
 
 ########## OFFSITE QUESTION 2B ##############
 
-### Q: Can we add the two points (0, 0) and (1, 1) to the plot of 
+### Q: Can we add the two points (0, 0) and (1, 1) to the
 ###    ROC plot in part (a). Explain why or why not.
 
 "
