@@ -163,7 +163,7 @@ head(iris)
 library(rpart)
 
 iris_fit = rpart(
-  class ~ sepal.length + sepal.width + petal.length + petal.width, # or class ~ . (all)
+  class ~ sepal.length + sepal.width + petal.length + petal.width, # or class ~ .
   method = "class", # categorical
   data = iris,
   control = rpart.control(minsplit = 1),
